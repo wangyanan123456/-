@@ -5,7 +5,7 @@
   <title>Document</title>
   <script type="text/javascript" src="../js/rem.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/reset.css">
-  <link rel="stylesheet" type="text/css" href="../css/supplier.css">
+  <link rel="stylesheet" type="text/css" href="../css/addSupplier.css">
 </head>
 <body>
     <div class="box">
@@ -184,7 +184,7 @@
         
       </div>
 
-      <div style="width:100%">
+      <div style="width:86.5%;height: 100%">
 
          <div class="username">
            <div> 
@@ -196,110 +196,131 @@
         
          <div class="wrap">
          <!-- 当前位置 -->
-           <div class="nowPlace">生产加工/生产加工计划单/<span>商城</span></div>
-         <!-- 查询 -->
-           <div class="firstPageCheck">
-             <div>
-               <input placeholder='请输入供应商名称'>
-             </div>
-             
-            
-             <div>   
-              <input placeholder='请选择状态'>
-               <img src='../img/phone.png' class="shangImg">
-             </div>
-             <button class="firstPageBtn">查询</button>
-           </div>
+            <div class="nowPlace">生产加工/生产加工计划单/<span>商城</span></div>
+            <div class="info" style="border-bottom: 1px solid #E5E5E5;">
+                <div class="infoTitle">基本信息</div>
+                <div class="infolist"> 
+                    <div>供应商名称</div>
+                    <input style="width:4.38rem;height: 0.31rem" />
+                </div>
+                 <div class="infolist"> 
+                    <div>供应商区域</div>
+                    <!-- <input style="width:4.38rem;height: 0.31rem" /> -->
+                    <select>
+                        <option>北京</option>
+                        <option>河北</option>
+                    </select>
+                </div>
+                 <div class="infolist" style="margin-top:0.31rem"> 
+                    <div style="margin-top: -0.01rem">供应商类别</div>
+                    <label><input type="checkbox" name="items"><span></span>代工厂</label>
+                    <label><input type="checkbox" name="items"><span></span>原料</label>
+                    <label><input type="checkbox" name="items"><span></span>包装</label>
+                    <label><input type="checkbox" name="items"><span></span>物料</label>
+                    <label><input type="checkbox" name="items"><span></span>批发商</label>
+                </div>
+                <div class="infolist"> 
+                    <div>公司地址</div>
+                    <!-- <input style="width:4.38rem;height: 0.31rem" /> -->
+                    <select style="color: #E5E5E5;">
+                        <option>北京</option>
+                        <option>河北</option>
+                    </select>
+                    <select style="color: #999;">
+                        <option>北京</option>
+                        <option>河北</option>
+                    </select>
+                    <select style="color:#5B8CFF">
+                        <option>东城</option>
+                        <option>西城</option>
+                         <option>朝阳</option>
+                    </select>
+                </div>
+                <div class="infolist"> 
+                    <div>公司联系人</div>
+                    <input />
+                </div>
+                <div class="infolist"> 
+                    <div>公司电话</div>
+                    <input />
+                </div>
+                <div class="infolist"> 
+                    <div>公司邮编</div>
+                    <input />
+                </div>
+                <div class="infolist"> 
+                    <div>采购负责人</div>
+                    <input />
+                </div>
 
-           <!-- 供应商的弹窗 -->
-           <ul class="time gongyingshang apper" style="left:8.01rem ">
-               <li>供应商1</li>
-               <li>供应商2</li>
-               <li>供应商3</li>
-               <li>供应商4</li>
-           </ul>
 
-           <!-- 生产单 -->
-
-           <div class="firstPageBill">
-             <div class="firstBilTittle">
-               <div>
-                 <img src="../img/phone.png">
-                 <div style="font-size: 0.19rem">新增供应商</div>
-               </div>
-             </div>
-             
-
-             
-            
-             <ul class="firstBilUl" >
-
-               <li style="background: #F5F5F5">
+            </div>
+             <div class="info">
+                <div class="infoTitle">发票信息</div>
                 
-                 <div class="zhanDot">供应商编号</div>
-                 <div class="shopname">供应商名称</div>
-                 <div class="shopid">省市</div>
-                 <div class="shopid">采购负责人</div>
-                 <div class="shopid">联系人</div>
-                 <div class="carNum">银行卡号</div>
-                 <div class="shopid">状态</div>
-                 <div class="shopid">操作</div>
-               </li>
+                 <div class="infolist"> 
+                    <div>公司类型</div>
+                    <!-- <input style="width:4.38rem;height: 0.31rem" /> -->
+                    <select >
+                        <option >一般纳税人</option>
+                        <option>河北</option>
+                    </select>
+                </div>
+                <div class="infolist"> 
+                    <div>发票类型</div>
+                    <!-- <input style="width:4.38rem;height: 0.31rem" /> -->
+                    <select >
+                        <option >发票类型</option>
+                        <option>河北</option>
+                    </select>
+                </div>
+                 <div class="infolist" style="margin-top:0.31rem"> 
+                    <div style="margin-top: -0.01rem">税率</div>
+                    <label style="width:2.1rem;"><input type="checkbox" name="items"><span></span>17%</label>
+                    <label style="width:1.81rem;"><input type="checkbox" name="items"><span></span>13%</label>
+                    <label style="width:1.81rem;"><input type="checkbox" name="items"><span></span>0%</label>
+                </div>
+                <div class="infolist"> 
+                    <div style="margin-top: -0.01rem">付款方式</div>
+                    <label style="width:2.1rem;"><input type="checkbox" name="items"><span ></span>银行转账</label>
+                    <label style="width:2.1rem;"><input type="checkbox" name="items"><span></span>现金支付</label>
+                    
+                </div>
+                <div class="infolist" > 
+                    <div style="margin-top: -0.01rem"></div>
+                    <label style="width:2.1rem; "><input type="checkbox" name="items"><span ></span>月结</label>
+                     <select >
+                        <option value="对账日" >对账日
+                        <option>河北</option>
+                    </select>
+                    <select >
+                        <option >结账日</option>
+                        <option>河北</option>
+                    </select>
+                    
+                </div>
+                <div class="infolist"> 
+                    <div style="margin-top: -0.01rem"></div>
+                    <label style="width:2.1rem;"><input type="checkbox" name="items"><span ></span>账期</label>
+                     <select >
+                        <option >天</option>
+                        <option>河北</option>
+                    </select>
+                </div>
 
-               <li>
-                 
-                 <div class="zhanDot">1123444</div>
-                 <div class="shopname">黑眼豆豆五只装海燕豆豆豆</div>
-                 <div class="shopid">20526</div>
-                 <div class="shopid">278</div>
-                 <div class="shopid">7899</div>
-                 <div class="carNum">123456789123456789</div>
-                 <div class="shopid">7899</div>
-                  <div class="firstBilZuo"><span>编辑</span><span>关联商品</span></div>
-               </li>
-                <li class="blue">
-                 
-                 <div class="zhanDot">1123444</div>
-                 <div class="shopname">黑眼豆豆五只装海燕豆豆豆</div>
-                 <div class="shopid">20526</div>
-                 <div class="shopid">278</div>
-                 <div class="shopid">7899</div>
-                 <div class="carNum">123456789123456789</div>
-                 <div class="shopid">合作中</div>
-                  <div class="firstBilZuo"><span>编辑</span><span>关联商品</span></div>
-               </li>
-                <li >
-               <div ></div> 
-                 <div class="zhanDot">1123444</div>
-                 <div class="shopname">黑眼豆豆五只装海燕豆豆豆</div>
-                 <div class="shopid">20526</div>
-                 <div class="shopid">278</div>
-                 <div class="shopid">7899</div>
-                 <div class="carNum">123456789123456789</div>
-                 <div class="shopid yellow">审核中</div>
-                  <div class="firstBilZuo"><span>编辑</span><span>关联商品</span></div>
-               </li>
-                <li class="blue">
-                 <div class="zhanDot">1123444</div>
-                 <div class="shopname">黑眼豆豆五只装海燕豆豆豆</div>
-                 <div class="shopid">20526</div>
-                 <div class="shopid">278</div>
-                 <div class="shopid">7899</div>
-                 <div class="carNum">123456789123456789</div>
-                 <div class="shopid origin">终止</div>
-                  <div class="firstBilZuo"><span>编辑</span><span>关联商品</span></div>
-               </li>
-            
-             </ul>
-            
-           </div>
+                <div class="infoBtn">提交</div>
+               
+            </div>
 
-         </div>
+            
+        </div>
+
+        
       </div>
       
     </div>
 </body>
 
 <script type="text/javascript" src="../js/jquery.js"></script>
-<script type="text/javascript" src="../js/supplier.js"></script>
+<script type="text/javascript" src="../js/addSupplier.js"></script>
 </html>
