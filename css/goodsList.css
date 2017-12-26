@@ -145,6 +145,7 @@
 	font-size: 0.22rem;
 	height: 0.62rem;
 	line-height: 0.62rem;
+	color: #666;
 }
 .blue{
 	background: #F6FAFF;
@@ -152,6 +153,7 @@
 .red{
 	background: #fd736e;
 }
+
 .firstnub{
 	width:3.5rem;
 	text-align: center;
@@ -167,6 +169,7 @@
 .shopid{
 	width:3.6rem;
 	text-align: center;
+	color:#44CC66;
 }
 .firstBilZuo{
 	width: 3.6rem;
@@ -204,4 +207,10 @@
 	line-height: 0.5rem;
 	height: 0.5rem;
 	margin-left: 0.31rem;
+}
+.stop{
+	color: #fd736e;
+}
+.star{
+	color: #44cc66;
 }
