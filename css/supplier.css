@@ -129,7 +129,7 @@
 	border:none;
 	border:1px solid #eee;
 	margin-top: 0.23rem;
-	margin-left: 1.06rem;
+	margin-left: 0.5rem;
 	border-radius: 0.05rem;
 	color: #fff;
 	font-size: 0.22rem;
@@ -144,7 +144,7 @@
 }
 .firstPageBill{
 	width:100%;
-	margin-top: 0.31rem;
+	margin-top:0.47rem;
 }
 .firstBilTittle{
 	display: flex;
@@ -156,7 +156,8 @@
 	display: flex;
 	height: 0.78rem;
 	line-height: 0.78rem;
-	margin-left: 17.22rem;
+	margin-left: 9.22rem;
+	color: #5B8CFF;
 }
 .firstBilTittle img{
 	width:0.31rem;
@@ -165,7 +166,7 @@
 	margin-right: 0.12rem;
 }
 .firstBilUl{
-	margin-top: 0.31rem;
+	margin-top: 0.47rem;
 	background: #fff;
 	width:100%;
 }
@@ -208,22 +209,12 @@ label input[type="checkbox"] + span{
 label input[type="checkbox"]:checked + span{
 	background-position:0 -16px;
 }
-.squery{
-	width:0.2rem;
-	height: 0.2rem;
-	border:1px solid #D3D3D3;
-	border-radius: 0.05rem;
-	margin-top: 0.16rem;
-	margin-left: 0.47rem;
-}
+
 .firstBilNum{
 	width:1rem;
 	text-align: center;
 }
-.firstnub{
-	width:1rem;
-	text-align: center;
-}
+
 .zhanDot{
 	width:2.6rem;
 	text-align: center;
@@ -233,11 +224,11 @@ label input[type="checkbox"]:checked + span{
 	text-align: center;
 }
 .shopid{
-	width:1.6rem;
+	width:1.9rem;
 	text-align: center;
 }
-.shoptimer{
-	width:2.3rem;
+.carNum{
+	width:3.6rem;
 	text-align: center;
 }
 .firstBilChan{
@@ -280,16 +271,9 @@ label input[type="checkbox"]:checked + span{
 	height: 0.5rem;
 	margin-left: 0.31rem;
 }
-.bottom{
-	display:flex;
-	margin-top: 0.23rem;
+.yellow{
+	color: #FFCC2F;
 }
-.bottom div{
-	width: 1.19rem;
-	height: 0.56rem;
-	background: #fff;
-	line-height: 0.56rem;
-	font-size: 0.22rem;
-	text-align: center;
-	margin-right: 0.16rem;
+.origin{
+	color: #FD736E;
 }
