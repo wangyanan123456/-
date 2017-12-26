@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		input[type="checkbox"]{
+			appearance: none; 
+			-webkit-appearance: none;
+			outline: none;
+			display:none;
+		}
+		label{
+			width:100px;
+			height:30px;
+			display:inline-block;
+			cursor:pointer;
+		}
+		label input[type="checkbox"] + span{
+			width:20px;height:20px;
+			display:inline-block;
+			background:url(http://sandbox.runjs.cn/uploads/rs/216/0y89gzo2/checkbox_01.gif)  no-repeat;
+			/*background:pink;*/
+			background-position:0 0;
+		}
+		label input[type="checkbox"]:checked + span{
+			background-position:0 -21px;
+		}
+	</style>
+</head>
+<body>
+	<label><input type="checkbox" id="checkItems"><span></span>全选</label><br>
+	<label><input type="checkbox" name="items"><span></span></label><br>
+	<label><input type="checkbox" name="items"><span></span></label><br>
+	<label><input type="checkbox" name="items"><span></span></label><br>
+	<label><input type="checkbox" name="items"><span></span></label><br>
+	<label><input type="checkbox" name="items"><span></span></label><br>
+	<label><input type="checkbox" name="items"><span></span></label>
+</body>
+<script type="text/javascript">
+	 document.getElementById('checkItems').onclick=function()  
+        {  
+         // 获取所有的复选框  
+            var checkElements=document.getElementsByName('items');  
+            if (this.checked) {  
+                for(var i=0;i<checkElements.length;i++){  
+                    var checkElement=checkElements[i];  
+                    checkElement.checked="checked";  
+                }  
+  
+            }  
+            else{  
+                for(var i=0;i<checkElements.length;i++){  
+                    var checkElement=checkElements[i];  
+                    checkElement.checked=null;  
+                }  
+            }  
+  
+        }  
+</script>
+</html>

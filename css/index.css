@@ -1,0 +1,106 @@
+.background{
+	width:100%;
+	height: 100%;
+	background: pink;
+	padding-top: 0.1px;
+}
+.system{
+	width:7.35rem;
+	height: 7.35rem;
+	margin: 1.25rem auto;
+	border-radius: 0.16rem;
+}
+.title{
+	width: 4.83rem;
+	margin: 0 auto;
+	font-size: 0.53rem;
+	color: #fff;
+}
+.englishTitle{
+	width: 4.93rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	color: #fff;
+	font-size: 0.3rem;
+}
+.system>div{
+	background:url(../img/blue.png) no-repeat;
+	padding-top: 0.62rem;
+	padding-bottom: 0.66rem;
+	border-radius: 0.16rem 0.16rem 0 0 ; 
+}
+.system form{
+	height: 4.2rem;
+	background: #fff;
+	padding-top:0.62rem;
+	border-radius: 0 0 0.16rem 0.16rem ;
+	position: relative;
+}
+.phone{
+	display: flex;
+	width: 4.75rem;
+	margin: 0.1rem auto;
+	border-bottom: 1px solid #F1F1F1;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+.phone img{
+	width:0.31rem;
+	height: 0.31rem;
+	margin-right: 0.16rem;
+	
+}
+.phone input{
+	border:none;
+}
+.passWord{
+	margin-left: 5.12rem;
+	color: #72BEFF;
+	font-size: 0.19rem;
+}
+.login{
+	width: 3.19rem;
+	height: 0.83rem;
+	line-height: 0.83rem;
+	text-align: center;
+	background: url(../img/login.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.66rem;
+	color: #fff;
+	font-size: 0.19rem;
+}
+.warning{
+	width:1.5rem;
+	height: 1.75rem;
+	position: absolute;
+	background: #000;
+	opacity: 0.6;
+	top:1.4rem;
+	left:2.88rem;
+	z-index: 200;
+	display: none;
+}
+.warning img{
+	width:0.5rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	margin-top: 0.46rem;
+	margin-bottom: 0.2rem;
+
+}
+.warning p{
+	text-align: center;
+	color: #fff;
+	font-size: 0.19rem;
+}
+.checkNum{
+	display: inline-block;
+	width:1.22rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	text-align: center;
+	border:1px solid #666;
+	border-radius: 0.06rem;
+	margin-left: 0.31rem;
+}

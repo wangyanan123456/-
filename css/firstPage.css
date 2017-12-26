@@ -1,0 +1,295 @@
+.box{
+	display: flex;
+}
+.firstTitle{
+	width:3.72rem;
+	height: 0.78rem;
+	line-height: 0.78rem;
+	background: #4876E9;
+	color: #fff;
+	font-size: 0.25rem;
+	text-align: center;
+}
+.firstUlLeft{
+	width:3.72rem;
+	
+}
+.firstUlLeftLi{
+	width:3.72rem;
+	line-height: 0.51rem;
+	display: flex;
+}
+.firstUlLeftLi img{
+	width:0.16rem;
+	height: 0.16rem;
+	margin-top: 0.18rem;
+	margin-left: 0.66rem;
+	margin-right: 0.16rem;
+}
+.firstUlLeft li div{
+	font-size: 0.22rem;
+}
+.twoCate{
+	width:3.72rem;
+	padding-left: 1.2rem;
+}
+.apper{
+	display: none;
+}
+
+.twoCate>div{
+	font-size: 0.22rem;
+	color: #333;
+	line-height: 0.53rem;
+}
+.threeCate{
+	width:3.12rem;
+	margin-left: -1.2rem;
+}
+.threeCate div{
+	width:3.72rem;
+	height: 0.53rem;
+	line-height: 0.53rem;
+	font-size: 0.22rem;
+	color: #333;
+	padding-left: 1.4rem;
+}
+.username{
+	width:100%;
+	height: 0.78rem;
+	line-height: 0.78rem;
+	background: #5B8CFF;
+	color: #fff;
+	font-size: 0.25rem;
+	text-align: center;
+}
+.username div{
+	display: flex;
+}
+.username  img{
+	width:0.23rem;
+	height: 0.23rem;
+	margin-top: 0.23rem;
+	margin-left: 17.53rem;
+	margin-right: 0.31rem;
+}
+.wrap{
+	width:100%;
+	height:100%;
+	background: #EFF4FA;
+	position: relative;
+}
+.nowPlace{
+	width:100%;
+	height: 0.78rem;
+	line-height: 0.78rem;
+	margin-left:0.47rem;
+	background: #fff;
+	color: #333;
+
+}
+.nowPlace span{
+	color: #5B8CFF;
+}
+.firstPageCheck{
+	width:100%;
+	height: 0.94rem;
+	background: #fff;
+	margin-top: 0.31rem;
+	margin-left: 0.47rem;
+	display: flex;
+	font-size: 0.22rem;
+	
+}
+.firstPageCheck>div{
+	display: flex;
+	height: 0.47rem;
+	border:1px solid #eee;
+	margin-left:0.78rem;
+	margin-top: 0.21rem;
+	padding-right: 0.1rem;
+}
+.firstPageCheck img{
+	width:0.12rem;
+	height: 0.12rem;
+	margin-left: 0.16rem;
+	margin-top: 0.15rem;
+}
+.firstPageCheck input{
+	border:none;
+	padding-left: 0.16rem;
+	width:2.2rem;
+	font-size: 0.22rem;
+}
+
+.firstPageBtn{
+	height: 0.47rem;
+	width:1rem;
+	background: #5B8CFF;
+	border:none;
+	border:1px solid #eee;
+	margin-top: 0.23rem;
+	margin-left: 1.36rem;
+	border-radius: 0.05rem;
+	color: #fff;
+	font-size: 0.22rem;
+}
+.time{
+	width:3.12rem;
+	height: 3.28rem;
+	background: pink;
+	position: absolute;
+	top:2.03rem;
+	z-index: 300;
+}
+.firstPageBill{
+	width:100%;
+	margin-top: 0.31rem;
+}
+.firstBilTittle{
+	display: flex;
+	background: #fff;
+	position: relative;
+	margin-left: 0.47rem;
+}
+.firstBilTittle>div{
+	display: flex;
+	height: 0.78rem;
+	line-height: 0.78rem;
+	margin-left: 17.72rem;
+}
+.firstBilTittle img{
+	width:0.31rem;
+	height: 0.31rem;
+	margin-top: 0.23rem;
+	margin-right: 0.12rem;
+}
+.firstBilUl{
+	margin-top: 0.31rem;
+	background: #fff;
+	width:100%;
+}
+.firstBilUl li {
+	display: flex;
+	font-size: 0.22rem;
+	height: 0.62rem;
+	line-height: 0.62rem;
+}
+.blue{
+	background: #F6FAFF;
+}
+.firstBilXuan{
+	display: flex;
+	width:1.2rem;
+	font-size: 0.22rem;	
+	position: relative;
+	padding-left: 0.47rem;
+	margin-top:0.23rem;
+}
+input[type="checkbox"]{
+	appearance: none; 
+	-webkit-appearance: none;
+	outline: none;
+	display:none;
+}
+label{
+	width:100px;
+	height:30px;
+	display:inline-block;
+	cursor:pointer;
+	margin-left: 0.47rem;
+}
+label input[type="checkbox"] + span{
+	width:14px;height:14px;
+	display:inline-block;
+	background:url(../img/right2.png)  no-repeat;
+	background-position:0 0;
+}
+label input[type="checkbox"]:checked + span{
+	background-position:0 -16px;
+}
+.squery{
+	width:0.2rem;
+	height: 0.2rem;
+	border:1px solid #D3D3D3;
+	border-radius: 0.05rem;
+	margin-top: 0.16rem;
+	margin-left: 0.47rem;
+}
+.firstBilNum{
+	width:1rem;
+	text-align: center;
+}
+.firstnub{
+	width:1rem;
+	text-align: center;
+}
+.zhanDot{
+	width:2.6rem;
+	text-align: center;
+}
+.shopname{
+	width:2.9rem;
+	text-align: center;
+}
+.shopid{
+	width:1.6rem;
+	text-align: center;
+}
+.shoptimer{
+	width:2.3rem;
+	text-align: center;
+}
+.firstBilChan{
+	width:4.5rem;
+	text-align: center;
+}
+.firstBilgong{
+	width:2.5rem;
+	text-align: center;
+}
+.firstBilTime{
+	width:5rem;
+	text-align: center;
+}
+.firstBilRen{
+	width:2rem;
+	text-align: center;
+}
+.firstBilZuo{
+	width: 2rem;
+	text-align: center;
+}
+.firstBilZuo span{
+	color: #5B8CFF;
+	font-size: 0.19rem;
+	margin-left: 0.08rem;
+}
+.page{
+	display: flex;
+	padding-left:7.58rem;
+	padding-top: 0.31rem;
+	padding-bottom: 0.31rem;
+	border-top: 1px solid #F5F5F5;
+}
+.page div{
+	padding-left: 0.16rem;
+	padding-right: 0.16rem;
+	border:1px solid #D5D5D5;
+	line-height: 0.5rem;
+	height: 0.5rem;
+	margin-left: 0.31rem;
+}
+.bottom{
+	display:flex;
+	margin-top: 0.23rem;
+}
+.bottom div{
+	width: 1.19rem;
+	height: 0.56rem;
+	background: #fff;
+	line-height: 0.56rem;
+	font-size: 0.22rem;
+	text-align: center;
+	margin-right: 0.16rem;
+}
