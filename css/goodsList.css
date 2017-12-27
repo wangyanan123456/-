@@ -109,7 +109,11 @@
 	margin-top: 0.21rem;
 	padding-right: 0.1rem;
 }
-
+.firstPageCheck img{
+	width:0.19rem;
+	height: 0.19rem;
+	margin-top: 0.16rem;
+}
 .firstPageCheck input{
 	border:none;
 	padding-left: 0.16rem;
@@ -147,12 +151,7 @@
 	line-height: 0.62rem;
 	color: #666;
 }
-.blue{
-	background: #F6FAFF;
-}
-.red{
-	background: #fd736e;
-}
+
 
 .firstnub{
 	width:3.5rem;
@@ -184,15 +183,28 @@
 	height: 0.31rem;
 	line-height: 0.31rem;
 }
-.firstBilZuo img{
+.firstBilZuo img:first-child{
 	display: inline-block;
 	width:0.12rem;
+	height: 0.16rem;
+	margin-right: 0.06rem;
+}
+.firstBilZuo img:last-child{
+	display: inline-block;
+	width:0.16rem;
 	height: 0.16rem;
 	margin-right: 0.06rem;
 }
 .blue{
 	background: #F6FAFF;
 }
+.green{
+	background: #44cc66;
+}
+.red{
+	background: #fd736e;
+}
+
 .page{
 	display: flex;
 	padding-left:7.08rem;
