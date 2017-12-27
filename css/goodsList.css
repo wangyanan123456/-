@@ -1,5 +1,7 @@
+
 .box{
 	display: flex;
+	
 }
 .firstTitle{
 	width:3.72rem;
@@ -75,7 +77,7 @@
 }
 .wrap{
 	width:100%;
-	height:92vh;
+	height:85.5vh;
 	background: #EFF4FA;
 	position: relative;
 }
@@ -225,4 +227,64 @@
 }
 .star{
 	color: #44cc66;
+}
+.tanchuang{
+	position:absolute;
+	width:100%;
+	height: 85.5vh;
+	top:0;
+	left: 0;
+	background: #000;
+	z-index: 900;
+	opacity: 0.7;
+}
+.newCate{
+	position: absolute;
+	z-index: 1000;
+	background:#fff;
+	width:4.16rem;
+	height: 2.89rem;
+	left: 8.73rem;
+	top: 4.33rem;
+}
+.newCateTitle{
+	height: 0.62rem;
+	background: #4DA6FE;
+	font-size: 0.25rem;
+	color: #fff;
+	line-height: 0.62rem;
+	padding-left: 0.31rem;
+	margin-bottom: 0.16rem;
+}
+.list{
+	display: flex;
+	margin-left: 0.62rem;
+}
+.list li{
+	width:0.88rem;
+	height: 0.53rem;
+	line-height: 0.52rem;
+}
+.list input{
+	width:1.36rem;
+	margin-top: 0.12rem;
+	margin-bottom: 0.05rem;
+}
+.list select{
+	color: #666;
+	width:1.4rem;
+	margin-top: 0.12rem;
+	margin-bottom: 0.05rem;
+}
+.buton{
+	width: 1.25rem;
+	height: 0.51rem;
+	background: url(../img/buton.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	color: #fff;
+	line-height: 0.41rem;
+	margin-top:0.33rem;
+	margin-left: 1.5rem;
+	font-size: 0.19rem;
 }

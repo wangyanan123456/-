@@ -1,24 +1,6 @@
 
   $(document).ready(function(){
-    document.getElementById('checkItems').onclick=function(){  
-      // $('firstBilXuan input').hasClass("on_check")? $('firstBilXuan input').removeClass("on_check"):$('firstBilXuan input').addClass("on_check");
-       // 获取所有的复选框  
-          var checkElements=document.getElementsByName('items');  
-          if (this.checked) {  
-              for(var i=0;i<checkElements.length;i++){  
-                  var checkElement=checkElements[i];  
-                  checkElement.checked="checked";  
-              }  
-
-          }  
-          else{  
-              for(var i=0;i<checkElements.length;i++){  
-                  var checkElement=checkElements[i];  
-                  checkElement.checked=null;  
-              }  
-          }  
-
-    }  
+    
 
 
     $('.firstUlLeftLi').click(function(){
@@ -40,22 +22,12 @@
       })
     })
     // 时间弹窗
-    $('.timer').click(function(){
+    $('.buton').click(function(){
         console.log(88)
-          $('.days').toggleClass('apper')
+          $('.newCate').css('display','none');
+          $('.zhezhao').css('display','none');
     })
 
-    // 供应商弹窗
-    $('.gongImg').click(function(){
-        console.log(88)
-          $('.gongyingshang').toggleClass('apper')
-    })
-
-    // 商品弹窗
-
-    $('.shangImg').click(function(){
-        console.log(88)
-          $('.shangpin').toggleClass('apper')
-    })
+    
        
   })
